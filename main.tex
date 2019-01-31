@@ -1,14 +1,23 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
+% A (minimal) template for problem sets and solutions using the exam document class
 
-\title{LatexCalcOnManifolds}
-\author{nnutannep }
-\date{January 2019}
+% Organization:
+%% Define new commands, macros, etc. in macros.tex
+%% Anything that you would put before \begin{document} should go in prelude.tex
 
+%% For multiple psets, each should get its own file to \input into main with a \section{}
+
+\input{prelude}
+\title{Calculus on Manifolds}
 \begin{document}
 
-\maketitle
+\input{macros}
 
-\section{Introduction}
+%% Content goes here
+
+\section{1-30}
+\input{1-30}
+
+\section{1-25}
+\input{1-25}
 
 \end{document}
