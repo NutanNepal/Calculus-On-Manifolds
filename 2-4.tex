@@ -18,7 +18,9 @@ $$f(x)=
     \begin{solution}
         We need to show that for every $a\in \mathbf{R}$, there
         exists a $\lambda:\mathbf{R}\to\mathbf{R}$ such that
-        $$\lim_{t\to 0}{\frac{h(a+t)-h(a)-\lambda(t)}{t}} = 0.$$
+        \begin{equation}
+            \lim_{t\to 0}{\frac{h(a+t)-h(a)-\lambda(t)}{t}} = 0.
+        \end{equation}
         We see that
         $$h(a+t)=f(ax+tx)=
         \begin{cases}
@@ -28,7 +30,12 @@ $$f(x)=
         \end{cases}$$
         This follows from the fact that $g\left(\frac{(a+t)x}
         {\|(a+t)x\|}\right)=g\left(\frac{\pm x}{\|x\|}\right)
-        =g\left(\frac{x}{\|x\|}\right).$
+        =g\left(\frac{x}{\|x\|}\right).$ We have,
+        \begin{align*}
+            \frac{h(a+t)-h(a)-\lambda(t)}{t} & =
+            \frac{\|(a+t)x\|\cdot g(\hat{x})-\|a\|g(\hat{x})-\lambda(t)}
+            {t}\\
+            & = 
+        \end{align*}
     \end{solution}
-    
 \end{questions}
