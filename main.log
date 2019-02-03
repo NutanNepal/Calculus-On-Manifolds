@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.31)  3 FEB 2019 04:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.31)  3 FEB 2019 16:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -6,7 +6,7 @@ entering extended mode
 **e:/Documents/GitHub/LatexCalcOnManifolds/main.tex
 (e:/Documents/GitHub/LatexCalcOnManifolds/main.tex
 LaTeX2e <2018-12-01>
-(e:/Documents/GitHub/LatexCalcOnManifolds/prelude.tex (c:/texlive/2018/texmf-dist/tex/latex/exam/exam.cls
+(e:/Documents/GitHub/LatexCalcOnManifolds/headers/prelude.tex (c:/texlive/2018/texmf-dist/tex/latex/exam/exam.cls
 Document Class: exam 2017/12/17 Version 2.603 by Philip Hirschhorn
 (c:/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
@@ -430,7 +430,8 @@ Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
 )
 \c@theorem=\count162
 \c@corollary=\count163
-) (e:/Documents/GitHub/LatexCalcOnManifolds/main.aux
+\c@definition=\count164
+) (e:/Documents/GitHub/LatexCalcOnManifolds/headers/macros.tex) (e:/Documents/GitHub/LatexCalcOnManifolds/main.aux
 
 LaTeX Warning: Label `question@1' multiply defined.
 
@@ -440,30 +441,30 @@ LaTeX Warning: Label `question@2' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
  ABD: EveryShipout initializing macros (c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count164
+\scratchcounter=\count165
 \scratchdimen=\dimen164
 \scratchbox=\box45
-\nofMPsegments=\count165
-\nofMParguments=\count166
+\nofMPsegments=\count166
+\nofMParguments=\count167
 \everyMPshowfont=\toks45
-\MPscratchCnt=\count167
+\MPscratchCnt=\count168
 \MPscratchDim=\dimen165
-\MPnumerator=\count168
-\makeMPintoPDFobject=\count169
+\MPnumerator=\count169
+\makeMPintoPDFobject=\count170
 \everyMPtoPDFconversion=\toks46
 ) (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -505,7 +506,7 @@ Package grfext Info: Graphics extension search list:
 (grfext)             \AppendGraphicsExtensions on input line 456.
  (c:/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-)) (e:/Documents/GitHub/LatexCalcOnManifolds/macros.tex)
+))
 LaTeX Font Info:    Try loading font information for U+msa on input line 7.
  (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -527,9 +528,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--27
 
  []
 
-) (e:/Documents/GitHub/LatexCalcOnManifolds/theorems/th2_continuity.tex) (e:/Documents/GitHub/LatexCalcOnManifolds/1-23.tex [1
+) (e:/Documents/GitHub/LatexCalcOnManifolds/theorems/th2_continuity.tex) (e:/Documents/GitHub/LatexCalcOnManifolds/problems/1-23.tex [1
 
-{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (e:/Documents/GitHub/LatexCalcOnManifolds/1-25.tex) (e:/Documents/GitHub/LatexCalcOnManifolds/1-29.tex) (e:/Documents/GitHub/LatexCalcOnManifolds/1-30.tex [2]) (e:/Documents/GitHub/LatexCalcOnManifolds/2-1.tex) (e:/Documents/GitHub/LatexCalcOnManifolds/2-4.tex [3]) [4]
+{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (e:/Documents/GitHub/LatexCalcOnManifolds/problems/1-25.tex) (e:/Documents/GitHub/LatexCalcOnManifolds/problems/1-29.tex) (e:/Documents/GitHub/LatexCalcOnManifolds/problems/1-30.tex [2]) (e:/Documents/GitHub/LatexCalcOnManifolds/problems/2-1.tex) (e:/Documents/GitHub/LatexCalcOnManifolds/problems/2-4.tex [3]) [4]
 This exam contains 6 questions with 1 parts, 0 subparts, and 0 subsubparts.
 (e:/Documents/GitHub/LatexCalcOnManifolds/main.aux)
 
@@ -537,13 +538,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 14321 strings out of 492616
- 270676 string characters out of 6132768
- 347678 words of memory out of 5000000
- 17922 multiletter control sequences out of 15000+600000
+ 14333 strings out of 492616
+ 271020 string characters out of 6132768
+ 347870 words of memory out of 5000000
+ 17930 multiletter control sequences out of 15000+600000
  13150 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,14n,73p,864b,442s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,14n,73p,876b,442s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
 Output written on e:/Documents/GitHub/LatexCalcOnManifolds/main.pdf (4 pages, 148005 bytes).
 PDF statistics:
