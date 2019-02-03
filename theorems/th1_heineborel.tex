@@ -1,0 +1,36 @@
+\begin{theorem}[Heine-Borel Theorem]
+    \label{heineborel}
+    The closed interval $[a,b]$ is compact.
+\end{theorem}
+
+\begin{tcolorbox}
+    \begin{proof}
+        If $\mathscr{O}$ is an open cover of $[a,b]$, let
+        $$A=\{x: a\le x\le b \text{ and $[a,x]$ is covered
+        by some finite number of open sets in $\mathscr{O}$}\}.$$
+        We know that $a \in A$ since we can choose any open
+        set in $\mathscr{O}$ containing $a$. $A$ certainly 
+        has a least upper bound since $A$
+        is bounded above by $b$. So, we will
+        show that if some $\alpha$ is the least upper bound
+        of $A$, then $\alpha\in A$ and $\alpha=b$.$\\$
+
+        Since $\alpha=\sup{A}$, for every $x\in A$,
+        there exists an $\varepsilon$ such that
+        $\alpha-x<\varepsilon$. Since $[a,x]$ is covered by
+        some finite number of open sets, we can choose any
+        open
+        $\varepsilon$-neighborhood centered at $\alpha$.
+        Hence, we see that $[a,\alpha]$ is also covered by
+        finitely many open sets. This shows $\alpha \in A$.
+        $\\$
+
+        To show that $\alpha=b$, assume that $\alpha<b$.
+        Since, we can find some $x'$ between $\alpha$ and
+        $b$, such that $x'$ is contained in some open
+        neighborhood around $\alpha$, we see that $[a,\alpha]$
+        is covered by a single open set. Then certainly,
+        $x'\in A$. But this contradicts that $\alpha=\sup{A}$.
+        Hence, $\alpha=b$.
+    \end{proof}
+\end{tcolorbox}

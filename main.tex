@@ -1,9 +1,3 @@
-% Organization:
-%% Define new commands, macros, etc. in macros.tex
-%% Anything that you would put before \begin{document} should go in prelude.tex
-
-%% For multiple psets, each should get its own file to \input into main with a \section{}
-
 \input{prelude}
 \title{Calculus on Manifolds}
 \author{Nutan Nepal}
@@ -12,22 +6,21 @@
 \input{macros}
 \maketitle
 
-\section{1-30}
-\input{1-30}
-\textbf{}
-\section{1-25}
-\input{1-25}
-
-\section{1-29}
-\input{1-29}
-
-\section{2-4}
-\input{2-4}
-
-\section{}
-\input{heineborel.tex}
-
+\section{1-1}
+\section{1-2}
+    \input{theorems/th1_heineborel.tex}
+\section{1-3}
+    \input{theorems/th2_continuity.tex}
+    \begin{questions}
+        \input{1-23}
+        \input{1-25}
+        \input{1-29}
+        \input{1-30}
+    \end{questions}
 \section{2-1}
-\input{2-1}
+    \begin{questions}
+        \input{2-1}
+        \input{2-4}
+    \end{questions}
 
 \end{document}

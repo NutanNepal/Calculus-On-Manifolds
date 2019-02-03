@@ -1,0 +1,20 @@
+\question{
+    [1-23] If $f:A\to\mathbf{R}^m$ and $a\in A$, show that
+    $\lim_{x\to a}{f(x)} = b$ if and only if
+    $\lim_{x\to a}{f_i(x)}=b_i$ for $i=1, . . .,m$.
+}
+\begin{solution}
+    If $\lim_{x\to a}{f(x)} = b$, then for every
+    $\varepsilon>0$, we can find a $\delta>0$ such
+    that
+    $$0<\|x-a\|<\delta\implies\|f(x)-f(a)\|<\varepsilon.$$
+    Then we have
+    \begin{align*}
+        &\sum_{i=1}^{m}{\left(f_i(x)-b_i\right)^2}
+    <\varepsilon\\
+    \implies &\vert f_i(x)-b_i\vert<\sqrt{\varepsilon}
+    \quad \text{for $i=1,...,m$}
+    \end{align*}
+    This implies that $lim_{x\to a}{f(x)}=b_i$ for
+    $i=1,...,m$.
+\end{solution}

@@ -1,25 +1,32 @@
-Let $g$ be a continuous real-valued function on the unit
-circle ${x\in \mathbf{R}^2:\|x\|=1}$ such that $g(0,1)
-=g(1,0) =0$ and $g(-x)=-g(x)$. Define $f:\mathbf{R}^2
-\to \mathbf{R}$ by
-$$f(x)=
-\begin{cases}
-    \|x\|\cdot g\left(\frac{x}{\|x\|}\right) & x \neq 0,\\
-    0 & x =0.\\        
-\end{cases}$$
-    
-\begin{questions}
-    \question{
-        If $x\in \mathbf{R}^2$ and $h:\mathbf{R}\to\mathbf{R}
+\question{
+    [2-4]Let $g$ be a continuous real-valued function
+    on the
+    unit circle ${x\in \mathbf{R}^2:\|x\|=1}$ such
+    that $g(0,1)=g(1,0) =0$ and $g(-x)=-g(x)$.
+    Define $f:\mathbf{R}^2\to \mathbf{R}$ by
+    $$f(x)=
+    \begin{cases}
+        \|x\|\cdot g\left(\frac{x}{\|x\|}\right)
+        & x \neq 0,\\
+        0 & x =0.\\        
+    \end{cases}$$
+}
+\begin{parts}
+    \part{
+        If $x\in \mathbf{R}^2$ and
+        $h:\mathbf{R}\to\mathbf{R}
         $ is defined by $h(t)=f(tx)$, show that $h$ is
         differentiable.
     }
 
     \begin{solution}
-        We need to show that for every $a\in \mathbf{R}$, there
-        exists a $\lambda:\mathbf{R}\to\mathbf{R}$ such that
+        We need to show that for every $a\in \mathbf{R}$,
+        there
+        exists a $\lambda:\mathbf{R}\to\mathbf{R}$
+        such that
         \begin{equation}
-            \lim_{t\to 0}{\frac{h(a+t)-h(a)-\lambda(t)}{t}} = 0.
+            \lim_{t\to 0}
+            {\frac{h(a+t)-h(a)-\lambda(t)}{t}} = 0.
         \end{equation}
         We see that
         $$h(a+t)=f(ax+tx)=
@@ -28,14 +35,16 @@ $$f(x)=
             {\|x\|}\right) & (a+t)x\neq 0,\\
             0 & (a+t)x=0.\\
         \end{cases}$$
-        This follows from the fact that $g\left(\frac{(a+t)x}
+        This follows from the fact that
+        $g\left(\frac{(a+t)x}
         {\|(a+t)x\|}\right)=g\left(\frac{\pm x}{\|x\|}\right)
         =g\left(\frac{x}{\|x\|}\right).$ We have,
         \begin{align*}
             \frac{h(a+t)-h(a)-\lambda(t)}{t} & =
-            \frac{\|(a+t)x\|\cdot g(\hat{x})-\|a\|g(\hat{x})-\lambda(t)}
+            \frac{\|(a+t)x\|\cdot g(\hat{x})-\|a\|g
+            (\hat{x})-\lambda(t)}
             {t}\\
             & = 
         \end{align*}
     \end{solution}
-\end{questions}
+\end{parts}
