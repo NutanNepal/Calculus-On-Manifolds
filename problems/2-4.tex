@@ -28,23 +28,32 @@
             \lim_{t\to 0}
             {\frac{h(a+t)-h(a)-\lambda(t)}{t}} = 0.
         \end{equation}
-        We see that
-        $$h(a+t)=f(ax+tx)=
+        We see that, when $tx\neq 0$,
+        $$h(t)=f(tx)=
         \begin{cases}
-            \|(a+t)x\|\cdot g\left(\frac{x}
-            {\|x\|}\right) & (a+t)x\neq 0,\\
-            0 & (a+t)x=0.\\
+            -\vert t\vert\cdot\|(x\|\cdot 
+            g\left(\hat{x}\right) = tf(x) & t<0,\\
+            \vert t\vert\cdot\|(x\|\cdot 
+            g\left(\hat{x}\right) = tf(x) & t>0.\\
         \end{cases}$$
-        This follows from the fact that
-        $g\left(\frac{(a+t)x}
-        {\|(a+t)x\|}\right)=g\left(\frac{\pm x}{\|x\|}\right)
-        =g\left(\frac{x}{\|x\|}\right).$ We have,
+        Then $h$ is differentiable when the following
+        limit exists for any $a\in \rl$:
+        $$\lim_{a \to 0 }{\frac{h(t+a)-h(t)}{a}}.$$
+        But we have,
         \begin{align*}
-            \frac{h(a+t)-h(a)-\lambda(t)}{t} & =
-            \frac{\|(a+t)x\|\cdot g(\hat{x})-\|a\|g
-            (\hat{x})-\lambda(t)}
-            {t}\\
-            & = 
+            \lim_{a\to 0}{\frac{h(t+a)-h(t)}{a}}
+            &=\lim_{a\to 0}{\frac{(t+a)f(x)-tf(x)}{a}}\\
+            &= f(x).
         \end{align*}
+        The limit always exists and is equal to the
+        derivative of $h$ at $t$.
+    \end{solution}
+
+    \part{
+        Show that $f$ is not differentiable at $(0,0)$
+        unless $g=0$.
+    }
+    \begin{solution}
+        
     \end{solution}
 \end{parts}
