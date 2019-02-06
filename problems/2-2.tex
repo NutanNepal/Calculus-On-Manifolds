@@ -1,0 +1,42 @@
+\question{
+    [2-2] A function $f:\rl^2\to\rl$ is
+    \textbf{independent
+    of the second variable} if for each $x\in\rl$
+    we have $f(x,y_1)=f(x,y_2)$ for all $y_1,y_2
+    \in\rl$. Show that $f$ is independent of the
+    second variable if and only if there is a
+    function $g:\rl\to\rl$ such that $f(x,y)=g(x).$
+    What is $f'(a,b)$ in terms of $g'$?
+}
+\begin{solution}
+    Define $g(x)=f(x,0)$. Then for all $y\in\rl$,
+    if $f$ is independent of the second variable,
+    we have $f(x,y)=f(x,0)=g(x)$.
+
+    Similarly, since $g$ is independent of y, we
+    have $g(x)=f(x,0)=f(x,y_1)=f(x,y_2)$.
+
+    Now let $z=(h,k).$ Then, assuming that $f$ is
+    differentiable
+    at $(a,b)$, we have
+    \begin{align*}
+        &\lim_{(h,k)\to 0}
+        {\frac{\|f(a+h,b+k)-f(a,b)-Df(a,b)(h,k)\|}
+        {\|(h,k)\|}}=0\\
+        \text{or, }&\lim_{h\to 0}
+        {\frac{\|g(a+h)-g(a)-Df(a,b)(h,k)\|}
+        {\vert h\vert}}=0\\
+        \shortintertext{Since $g:\rl\to\rl$,}
+        &\lim_{h\to 0}{\frac{g(a+h)-g(a)}
+        {\vert h\vert}}=
+        \lim_{h\to 0}{\frac{Df(a,b)(h,k)}
+        {\vert h\vert}}\\
+        \text{or, }&g'(a)=
+        \lim_{h\to 0}{\frac{Df(a,b)(h,k)}
+        {\vert h\vert}}
+        \shortintertext{Then we see that}
+        &Df(a,b)(h,k)=h\cdot g'(a)
+    \end{align*}
+    satisfies the equation. Hence,
+    $f'(a,b)=g'(a)$.
+\end{solution}

@@ -1,11 +1,30 @@
-
-    \question{
-        [2-1] Prove that if $f:\mathbf{R}^n \to
+\question{
+    [2-1] Prove that if $f:\mathbf{R}^n \to
         \mathbf{R}^m$
         is differentiable at $a\in \mathbf{R}^n,$ 
         then it
         is continuous at a.
-    }
-    \begin{solution}
-        Hi.
-    \end{solution}
+}
+\begin{solution}
+    If $f$ is differentiable at $a\in \ron$, then
+    $$\lim_{h\to a}{\frac{\|f(a+h)-f(a)-\lambda(h)\|}
+    {\|h\|}}=0.$$
+    But this means that, for any given $\varepsilon_0>0$,
+    we can find a $\delta>0$ such that 
+    \begin{align*}
+        0<\|h\|<\delta & \implies
+        \frac{\|f(a+h)-f(a)-\lambda(h)\|}
+        {\|h\|}<\varepsilon_0\\
+        & \implies\|f(a+h)-f(a)-\lambda(h)\|
+        <\varepsilon_0\|h\|\\
+        & \implies\|f(a+h)-f(a)\|<(\varepsilon_0
+        +M)\|h\|
+    \end{align*}
+    for some $M\in\rl$. So, when $h=x-a$ for any given
+    $\varepsilon>0$, we can choose $0<\delta<\varepsilon
+    /(\varepsilon_0+M)$. Then it follows that,
+    $$0<\|x-a\|<\delta\implies\|f(x)-f(a)\|
+    <(\varepsilon_0+M)\delta<\varepsilon.$$
+
+    Hence, $f$ is continuous at $a$.
+\end{solution}

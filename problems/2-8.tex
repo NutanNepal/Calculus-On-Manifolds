@@ -1,0 +1,63 @@
+\question{
+    [2-8] Let $f:\rl\to\rl^2$. Prove that
+    $f$ is
+    differentiable at $a\in\rl$ if and
+    only if $f_1$ and $f_2$ are, and that
+    in this case
+    $$f'(a)=\left(\begin{matrix}
+        f_1'(a)\\f_2'(a)
+    \end{matrix}\right).$$
+}
+\begin{solution}
+    If $f:\rl\to\rl^2$ is differentiable
+    at $a$, 
+    then for some linear
+    transformation $\lambda:\rl\to\rl^2$,
+    $$\lim_{h\to 0}
+    {\frac{\|f(a+h)-f(a)-\lambda(h)\|}
+    {\vert h\vert}}
+    =0$$
+    So, for every $\varepsilon>0$, there
+    exists a $\delta>0$ such that
+    $$0<\vert h\vert <\delta\implies
+    \|f(a+h)-f(a)\|<
+    \vert h\vert\varepsilon.$$
+    But this means that each $f_1$ and
+    $f_2$ satisfies
+    $\|f_i(a+h)-f_i(a)\|<\vert h\vert
+    \varepsilon.$ So each $f_i$ is
+    differentiable. The converse follows
+    similarly.
+
+    Then,
+    $$\frac{\|f(a+h)-f(a)-\lambda(h)\|}
+    {\vert h\vert}=\left\lVert\left(
+        \begin{matrix}
+        \frac{f_1(a+h)-f(a)-\lambda_1(h)}
+        {h}\\
+        \frac{f_2(a+h)-f(a)-\lambda_2(h)}
+        {h}
+        \end{matrix}\right)\right\rVert$$
+    
+    We see that each of the component
+    of the right
+    hand side must be $0$. We also have
+    $f_i'(a)=\lambda_i(h)/\vert h\vert.$
+    Hence the
+    required expression for $f'(a)$
+    follows.
+    $$\vert h\vert f'(a)=
+    \lambda(h) =
+    \left(
+    \begin{matrix}
+        \lambda_1(h)\\
+        \lambda_2(h)
+    \end{matrix}\right)
+    =
+    \left(
+    \begin{matrix}
+        \vert h\vert f_1'(a)\\
+        \vert h\vert f_2'(a)
+    \end{matrix}\right).
+    $$
+\end{solution}
