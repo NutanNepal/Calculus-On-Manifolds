@@ -1,0 +1,48 @@
+\begin{theorem}
+    \textnormal{Corollary from the book}\\
+    \label{differentiation theorems}
+    If $f,g:\ron\to\rl$ are differentiable
+    at $a$,
+    \begin{align*}
+        &D(f+g)(a)=Df(a)+Dg(a)\\
+        &D(f\cdot g)(a)
+                    =g(a)Df(a)+f(a)Dg(a)\\
+        \shortintertext{If, moreover,
+        $g(a)\neq 0$, then}
+        &D(f/g)(a)=\frac{g(a)Df(a)-f(a)Dg(a)}
+        {[g(a)]^2}
+    \end{align*}
+\end{theorem}
+
+\begin{tcolorbox}
+    \begin{proof}
+        The first one is done in the text.
+        So we'll do the second and the third
+        one.\\
+        So, using the notations from the text,
+        since $f\cdot g =p\circ(f,g)$,
+        \begin{align*}
+            D(f.g)(a)&=Dp(f(a),g(a))\circ
+                D(f,g)(a)\\
+            &=Dp(f(a),g(a))(Df(a),Dg(a))\\
+            &=g(a)Df(a)+f(a)Dg(a)           
+        \end{align*}
+        The third relation follows from the
+        above product rule
+        and \ref{quotientlemma}.
+    \end{proof}
+    \begin{lemma}
+        \label{quotientlemma}
+        If $q:\rl\to\rl, g:\ron\to\rl$
+        is defined by
+        $q(x)=\frac{1}{g}(x)$, then
+        $$Dq(a)=-\frac{Dg(a)}{[g(a)]^2}.$$
+        \begin{proof}
+            We have,
+            $q(x)\cdot g(x)=1$. Then,
+            $D(1)=q(x)Dg(x)+g(x)Dq(x).$
+            Substituting $q(x)=1/g(x)$
+            gives the required result.
+        \end{proof}
+    \end{lemma}
+\end{tcolorbox}
