@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.31)  7 FEB 2019 02:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.31)  10 FEB 2019 07:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -444,6 +444,12 @@ LaTeX Warning: Label `question@3' multiply defined.
 
 LaTeX Warning: Label `question@4' multiply defined.
 
+
+LaTeX Warning: Label `question@1' multiply defined.
+
+
+LaTeX Warning: Label `question@2' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
@@ -541,26 +547,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--22
 
 ) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/1-23.tex [1
 
-{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/1-24.tex) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/1-25.tex) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/1-29.tex [2]) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/1-30.tex) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-1.tex [3]) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-2.tex) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-4.tex [4]) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-8.tex) (e:/Documents/GitHub/Calculus-On-Manifolds/theorems/th4_diffrules.tex [5]) [6]
-This exam contains 9 questions with 2 parts, 0 subparts, and 0 subsubparts.
+{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/1-24.tex) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/1-25.tex) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/1-29.tex [2]) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/1-30.tex) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-1.tex [3]) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-2.tex) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-4.tex [4]) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-8.tex) (e:/Documents/GitHub/Calculus-On-Manifolds/theorems/th4_diffrules.tex [5]) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-12.tex [6]) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-13.tex [7]) [8]
+This exam contains 11 questions with 9 parts, 0 subparts, and 0 subsubparts.
 (e:/Documents/GitHub/Calculus-On-Manifolds/main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 14363 strings out of 492616
- 271964 string characters out of 6132768
- 346927 words of memory out of 5000000
- 17943 multiletter control sequences out of 15000+600000
+ 14395 strings out of 492616
+ 272536 string characters out of 6132768
+ 348042 words of memory out of 5000000
+ 17969 multiletter control sequences out of 15000+600000
  13150 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,14n,73p,877b,442s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,15n,73p,877b,442s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on e:/Documents/GitHub/Calculus-On-Manifolds/main.pdf (6 pages, 166237 bytes).
+Output written on e:/Documents/GitHub/Calculus-On-Manifolds/main.pdf (8 pages, 175828 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 90 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

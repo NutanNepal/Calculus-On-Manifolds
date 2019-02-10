@@ -1,0 +1,85 @@
+\question{
+    [2-13] Define $IP:\ron\times\ron\to\rl$ by
+    $IP(x,y)=\langle x,y\rangle$.
+}
+\begin{parts}
+    \part{
+        Find $D(IP)(a,b)$ and $(IP)'(a,b)$.
+    }
+    \begin{solution}
+        Since inner product is a bilinear
+        function, we have
+        $$D(IP)(a,b)(x,y)=IP(a,y)+IP(x,b)
+        =\langle a,y\rangle
+        +\langle x,b\rangle.
+        $$
+        And since $\langle a,y\rangle
+        +\langle x,b\rangle=
+        a_1y_1+...+a_ny_n+b_1x_1+
+        ...+b_nx_n$, we have
+        $$(IP)'(a,b)=(b_1,...,b_n,
+        a_1,...,a_n)=(b,a).$$
+    \end{solution}
+    \part{
+        \label{2-13, b}
+        If $f,g:\rl\to\ron$ are
+        differentiable
+        and $h:\rl\to\rl$ is defined by
+        $h(t)=\langle f(t),g(t)\rangle$,
+        show that
+        $$h'(a)=\langle f'(a)^T,g(a)\rangle
+        +\langle f(a),g'(a)^T\rangle.$$
+    }
+    \begin{solution}
+        Here, we can write $h$ as
+        $h=(IP)\circ(f, g)$. Then
+        \begin{align*}
+            h'(a)&= (IP)'(f(a),g(a))\cdot
+            \left(\begin{matrix}
+                f'(a)\\g'(a)
+            \end{matrix}\right)\\
+            &=(g(a),f(a))\cdot
+            \left(\begin{matrix}
+                f'(a)\\g'(a)
+            \end{matrix}\right)\\
+            &=\sum_{i=1}^n
+            {g_i(a)\cdot f_i'(a)}+
+            \sum_{i=1}^n
+            {f_i(a)\cdot g_i'(a)}\\
+            &=\langle f'(a)^T,g(a)\rangle
+            +\langle f(a),g'(a)^T\rangle.
+        \end{align*}
+    \end{solution}
+    \part{
+        If $f:\rl\to\ron$ is differentiable
+        function and $\left\vert f(t)
+        \right\vert=1$ for all $t$, show
+        that $\langle f'(t)^T,f(t)
+        \rangle = 0.$
+    }
+    \begin{solution}
+        Define $h:\rl\to\rl$ by $h=\langle
+        f(t),f(t)\rangle.$ Then
+        $$h(t)=\lVert f(t)\rVert ^2=1$$
+        From \ref{2-13, b}, we have
+        $$h'(t)=2\langle f'(t)^T,f(t)
+        \rangle.$$
+        Since $h(t)=1,$ we have
+        $ h'(t)=0$ and the
+        required result follows.
+    \end{solution}
+    \part{
+        Exhibit a differentiable function
+        $f:\rl\to\rl$ such that the 
+        function $\vert f\vert$ defined
+        by $\vert f\vert(t)=\vert f(t)
+        \vert$ is not differentiable.
+    }
+    \begin{solution}
+        $f(t)=t$ is differentiable.
+        $\vert f\vert(t)=
+        \vert f(t)\vert=
+        \vert t\vert$ is
+        not differentiable.
+    \end{solution}
+\end{parts}

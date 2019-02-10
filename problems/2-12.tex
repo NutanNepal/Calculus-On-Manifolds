@@ -1,0 +1,121 @@
+\question{
+    [2-12] A function $f:\ron\times\rom\to\rl^p$
+    is $\mathbf{bilinear}$ if for $x,x_1,
+    x_2\in\ron$, $y,y_1,y_2\in\rom$, and
+    $a\in\rl$ we have
+    \begin{align*}
+        f(ax,y)&=af(x,y)=f(x,ay),\\
+        f(x_1+x_2,y)&=f(x_1,y)+f(x_2,y),\\
+        f(x,y_1+y_2)&=f(x,y_1)+f(x,y_2).
+    \end{align*}
+}
+\begin{parts}
+    \part{
+        Prove that if $f$ is bilinear, then
+        $$\lim_{(h,k)\to 0}{
+            \frac{\|f(h,k)\|}{\|(h,k)\|}
+        }=0$$
+    }
+    \begin{solution}
+        Let $h=\alpha_1e_1+...+\alpha_ne_n$
+        and $k=\beta_1e_1+...+\beta_me_m$.
+        Since $f$ is bilinear, we can write
+        $f(h,k)$ as
+        $$f(h,k)=\sum_{i=1}^n{
+            \sum_{j=1}^m{
+                \alpha_i\beta_jf(e_i,e_j)
+            }
+        }.
+        $$
+        Let $\alpha=\max{
+        \{\vert\alpha_i\vert:
+        i=1,...,n\}}$ and $\beta=
+        \max{\{\vert\beta_i\vert:
+        i=1,...,m\}}.$
+        Then $\alpha\le\|h\|$ and
+        $\beta\le\|k\|$. Also let
+        $M=\max{\{\|f(e_i,e_j)\|:i=1,...,n
+        \textnormal{ and } j=1,...,m\}}.$
+        So we have,
+        \begin{align*}
+        \lim_{(h,k)\to 0}{
+            \frac{\|f(h,k)\|}{\|(h,k)\|}
+        }
+        &\le\lim_{(h,k)\to 0}{
+            \frac{\vert mn\alpha\beta M\vert}
+            {\|(h,k)\|}
+        }\\
+        &\le\lim_{(h,k)\to 0}{
+            \frac{mnM\|h\|\|k\|}{\|(h,k)\|}
+        }
+        \end{align*}
+        Now,
+        $$
+        \|h\|\|k\|\le
+        \begin{cases}
+            \|h\|^2 & 
+            \textnormal{if }\|k\|\le\|h\|,\\
+            \|k\|^2 &
+            \textnormal{if }\|h\|\le\|k\|.
+        \end{cases}
+        $$
+        Hence $\|h\|\|k\|\le\|h\|^2+\|k\|^2$
+        and since, $\|(h,k)\|=\sqrt{
+        \|h\|^2+\|k\|^2}$ we have
+        $$\lim_{(h,k)\to 0}{
+            \frac{\|f(h,k)\|}{\|(h,k)\|}
+        }\le
+        \lim_{(h,k)\to 0}{
+            \frac{mnM(\|h\|^2+\|k\|^2)}
+            {\sqrt{\|h\|^2+\|k\|^2}}
+        }
+        =\lim_{(h,k)\to 0}{mnM
+        \sqrt{\|h\|^2+\|k\|^2}}=0.$$
+    \end{solution}
+    \part{
+        \label{2-12,b}
+        Prove that $Df(a,b)(x,y)=
+        f(a,y)+f(x,b)$.
+    }
+    \begin{solution}
+        Here, for $a,h\in\ron$ and $b,k\in\rom$,
+        \begin{align*}
+            &\lim_{(h,k)\to 0}{
+                \frac{\|f(a+h,b+k)
+                -f(a,b)-\lambda(h,k)\|}{
+                \|(h,k)\|}
+            }\\
+            \le &\lim_{(h,k)\to 0}{
+                \frac{\|f(h,k)\|}{\|(h,k)\|}
+            }+\lim_{(h,k)\to 0}{
+                \frac{\|f(a,b)+f(a,k)+f(h,b)
+                -f(a,b)-\lambda(h,k)\|}
+                {\|(h,k)\|}
+            }
+        \end{align*}Then certainly,
+        $\lambda(h,k)=f(a,k)+f(h,b)$
+        implies,
+        $$\lim_{(h,k)\to 0}{
+            \frac{\|f(a+h,b+k)
+            -f(a,b)-\lambda(h,k)\|}{
+            \|(h,k)\|}
+        }=0.$$
+        Hence, $Df(a,b)(x,y)=f(a,y)+f(x,b).$
+    \end{solution}
+    \part{
+        When $p:\rl^2\to\rl$ is defined by 
+        $p(x,y)=x\cdot y$, then
+        $$Dp(a,b)(x,y)=bx+ay.$$
+        Show that the above formula is a
+        special case of \ref{2-12,b}.
+    }
+    \begin{solution}
+        It's clear that $p$ is a bilinear
+        function. Hence the derivative of $p$
+        at $(a,b)$ is given by,
+        \begin{align*} 
+            Dp(a,b)(x,y)&=p(a,y)+p(x,b)\\
+            &=ay+bx.
+        \end{align*}
+    \end{solution}
+\end{parts}
