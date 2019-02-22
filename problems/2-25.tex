@@ -1,0 +1,52 @@
+\question{
+    [1-25] Define $f:\rl\to\rl$ by
+    $$f(x)=
+    \begin{cases}
+        e^{-x^{-2}}&x\neq 0,\\
+        0&x=0.
+    \end{cases}$$
+    Show that $f$ is a $C^{\infty}$
+    function and $f^{(i)}(0)=0$ for
+    all $i$.
+}
+\begin{solution}
+    We know that,
+    $$f'(x)=\lim_{h\to 0}{
+        \frac{f(x+h)-f(x)}{h}
+    }$$
+    exists and equals $\frac{2}{x^3}
+    e^{x^{-2}}$ when $x\ne 0$. The
+    first derivative is given by
+    $$f'(x)=\frac{2}{x^3}f(x).$$
+    The subsequent derivatives $f^n(x)
+    $ can be then found by the
+    quotient rule, which guarantees
+    that there won't be more zeroes
+    in the denominator
+    of the derivatives except $x=0$.
+    Hence if the first
+    derivative is continuous at $x=0$,
+    the derivatives of all order exist.
+    Now, we'll prove the existence
+    of derivative at $x=0$. 
+    So when $x=0$,
+    $$f'(x)=\lim_{h\to 0}{\frac{
+        f(h)-f(0)
+    }{h}}=
+    \lim_{h\to 0}{
+        \frac{1/h}{e^{h^{-2}}}}.$$
+    Then by L'Hospital rule we have,
+    $$f'(0)=\lim_{h\to 0}{\frac{
+        -1/h^2
+    }{(2/h^3)f(h)}}=
+    \lim_{h\to 0}{\frac{-h}{2f(h)}}
+    =0.$$
+    The derivative clearly exists at
+    $x=0$. To show the continuity, we
+    observe that,
+    $$\lim_{x\to 0}{f'(x)}=
+    \lim_{x\to 0}{\frac{2}{x^3}e^{-x^
+    {-2}}}=0=f'(0)$$
+    follows from the L'Hospital rule.
+    
+\end{solution}

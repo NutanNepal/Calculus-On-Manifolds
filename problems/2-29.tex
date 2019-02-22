@@ -1,0 +1,51 @@
+\question{
+    Let $f:\ron\to\rl$. For $x\in\ron$,
+    the limit
+    $$\lim_{t\to 0}{\frac{f(a+tx)
+    -f(a)}{t}},$$
+    if it exists, is denoted $D_xf(a)$,
+    and is called the
+    $\mathbf{directional}$
+    derivarive of
+    $f$ at $a$, in the direction $x$.
+}
+
+\begin{parts}
+    \part{
+        Show that $D_{e_i}f(a)=D_if(a)$.
+    }
+    \begin{solution}
+        Here,
+        \begin{align*}
+        D_{e_i}f(a)&=\lim_{t\to 0}{
+        \frac{f((a_1,...,a_i,...,a_n)+
+        (0,...,t,...0))-
+        f(a_1,...,a_i,...,a_n)}{t}
+        }\\
+        &=\lim_{t\to 0}{
+        \frac{f(a_1,...,a_i+t,...,a_n)-
+        f(a_1,...,a_i,...,a_n)}{t}
+        }=D_if(a).
+        \end{align*}
+    \end{solution}
+    \part{
+        Show that $D_{tx}f(a)=tD_xf(a)$.
+    }
+    \begin{solution}
+        Since $th\to 0$ as $h\to 0$,
+        for $t,h\in \rl$, we have
+        $$D_{tx}f(a)=t\lim_{h\to 0}
+        {\frac{f(a+thx)-f(a)}{th}}
+        =tD_xf(a).$$
+    \end{solution}
+
+    \part{
+        If $f$ is differentiable at $a$,
+        show that $D_xf(a)=Df(a)(x)$, and
+        therefore $D_{x+y}f(a)=D_xf(a)+
+        D_yf(a)$.
+    }
+    \begin{solution}
+        
+    \end{solution}
+\end{parts}

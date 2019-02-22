@@ -1,0 +1,39 @@
+\question{
+    [2-24] Define $f:\rl^2\to\rl$ by
+    $$f(x,y)=\begin{cases}
+        xy\frac{x^2-y^2}{x^2+y^2}
+        &(x,y)\ne 0,\\
+        0&(x,y)=0.
+    \end{cases}$$
+}
+\begin{parts}
+    \part{
+        Show that $D_2f(x,0)=x$ for all
+        $x$ and $D_1f(0,y)=-y$ for all
+        y.
+    }
+    \begin{solution}
+        Here,
+        \begin{align*}
+            D_2f(x,0)&=\lim_{h\to 0}{
+                \frac{f(x,h)-f(x,0)}
+                {h}
+            }\\
+            &=\lim_{h\to 0}{
+            \frac{xh\frac{x^2-h^2
+            }{x^2+h^2}-0}{h}}\\
+            &=\lim_{h\to 0}{\frac
+            {x(x^2-h^2)}{x^2+h^2}}\\
+            &=x.
+        \end{align*}
+        Similarly, $D_2f(0,y)=-y$.
+    \end{solution}
+
+    \part{
+        Show that $D_1f(0,0)\ne D_2
+        f(0,0)$.
+    }
+    \begin{solution}
+        
+    \end{solution}
+\end{parts}

@@ -1,0 +1,50 @@
+\question{
+    [2-14] Let $E_i, i=1,...,k$ be Euclidean
+    spaces of various dimensions. A
+    function $f:E_1\times...\times E_k
+    \to\rl^p$ is called 
+    $\mathbf{multilinear}$ if for each
+    choice of $x_j\in E_j,j\ne i$ the
+    function $g:E_i\to\rl^p$ defined by
+    $g(x)=f(x_1,...,x_{i-1},x,x_{i+1},
+    ...,x_k)$ is a linear transformation.
+}
+\begin{parts}
+    \part{
+        If $f$ is multilinear and $i\ne j$,
+        show that for $h=(h_1,...,h_k)$,
+        with $h_l\in E_l$, we have
+        $$\lim_{h\to 0}{
+            \frac{\lVert f(a_1,...,h_i,
+            ...,h_j,...,a_k)\rVert}
+            {\lVert h \rVert}
+        }=0
+        $$
+    }
+    \begin{solution}
+        Define $g: E_i\times E_j\to \rl^p$
+        by $g(x,y)=f(a_1,...,x,...,y,...a_k).$
+        Then we see that $g$ is bilinear since
+        \begin{align*}
+            g(x_1+x_2,y)&=f(a_1,...,
+            x_1+x_2,...,y,...,a_k)\\
+            &=f(a_1,...,x_1,...,y,...,a_k)+
+            f(a_1,...,x_2,...,y,...,a_k)\\
+            &=g(x_1,y)+g(x_2,y)\\
+            \shortintertext{and similarly,}
+            g(kx,y)&=f(a_1,...,
+            kx,...,y,...,a_k)\\
+            &=kf(a_1,...,x,...,y,...,a_k)
+            =kg(x,y).
+        \end{align*}
+    \end{solution}
+    \part{
+        Prove that
+        $$Df(a_1,...,a_k)(x_1,...,x_k)=
+        \sum_{i=1}^k{f(a_1,...,a_{i-1},
+        x_i,a_{i+1},...,a_k)}.$$
+    }
+    \begin{solution}
+        
+    \end{solution}
+\end{parts}

@@ -1,0 +1,38 @@
+\question{
+    [2-28 d]
+    $F(x,y)=f(x,g(x),h(x,y))$
+}
+\begin{solution}
+    Define the functions $k$
+    and $\bar{g}$ by
+    \begin{align*}
+        &k(x,y)=x,\\
+        &\bar{g}(x,y)=g(x).
+    \end{align*}
+    Then $F(x,y)=
+    f(k(x,y),\bar{g}
+    (x,y),h(x,y))$. We also have,
+    \begin{align*}
+        &D_1k(x,y)=1,
+        &D_2k(x,y)=0,\\
+        &D_1\bar{g}(x,y)=g'(x),
+        &D_2\bar{g}(x,y)=0.
+    \end{align*}
+    Hence by theorem 2-9,
+    letting $a=(x,g(x),h(x,y))$,
+    \begin{align*}
+        D_1F(x,y)&=D_1f(a)
+        \cdot D_1k(x,y)+
+        D_2f(a)\cdot
+        D_1\bar{g}(x,y)+D_3f(a)
+        \cdot D_1h(x,y)\\
+        &=D_1f(a)+D_2f(a)\cdot
+        g'(x)+D_3f(a)\cdot
+        D_1h(x,y)\\
+        D_2F(x,y)&=D_1f(a)\cdot
+        D_2k(x,y)+D_2f(a)\cdot
+        D_2\bar{g}(x,y)+
+        D_3f(a)\cdot D_2h(x,y)\\
+        &=D_3f(a)\cdot D_2h(x,y).
+    \end{align*}
+\end{solution}
