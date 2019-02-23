@@ -1,0 +1,51 @@
+\question{
+    [2-32]
+}
+\begin{parts}
+    \part{
+        \label{2-32 a}
+        Let $f:\rl\to\rl$ be defined by
+        $$f(x)=
+        \begin{dcases}
+            x^2\sin{\frac{1}{x}}
+                &x\ne 0,\\
+            0&x=0.
+        \end{dcases}$$
+        Show that $f$ is differentiable
+        at 0 but $f'$ is not continuous
+        at 0. 
+    }
+    \begin{solution}
+    At $x=0$,
+    $$Df(0)=\lim_{h\to 0}{\frac
+    {f(h)-f(0)}{h}}=
+    h\sin{\frac{1}{h}}.$$
+    But,
+    $$f'(x)=2x\sin{\frac{1}{x}}-\cos{
+    \frac{1}{x}}$$
+    doesn't exist at $x=0$, and hence
+    $f'$ is not continuous.
+    \end{solution}
+
+    \part{
+        Let $f:\rl^2\to\rl$ be defined
+        by
+        $$f(x,y)=\begin{dcases}
+            (x^2+y^2)\sin{\dfrac{1}
+            {\sqrt{x^2+y^2}}}
+            &(x,y)\ne 0,\\
+            0&(x,y)=0.
+        \end{dcases}$$
+        Show that $f$ is differentiable
+        at $(0,0)$ but $D_if$ is not
+        continuous at $(0,0).$
+    }
+    \begin{solution}
+        If $h=\sqrt{x^2+y^2}$, define
+        $g:\rl\to\rl$ as $g(h)=
+        f(x,y)$. Then by (\ref{2-32 a}),
+        $g(h)=f(x,y)$ is differentiable
+        at $(0,0)$ but not continuous
+        at that point.
+    \end{solution}
+\end{parts}

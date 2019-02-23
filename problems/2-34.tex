@@ -1,0 +1,22 @@
+\question{
+    [2-34] A function $f:\ron\to\rl$
+    is
+    $\mathbf{homogenous}$ of degree
+    $m$ if $f(tx)=t^mf(x)$ for
+    all $x$.
+    If $f$ is also differentiable,
+    show that
+    $$\sum_{i=1}^n{x_iD_if(x)}=
+    mf(x).$$
+}
+
+\begin{solution}
+    Let a function $g:\rl\to\rl$ be
+    defined by $g(t)=f(tx)=t^mf(x)$.
+    Then
+    $$mt^{m-1}f(x)=g'(t)=f'(tx).$$
+    So when $t=1$,
+    $$mf(x)=g'(1)=f'(x)=
+    \sum_{i=1}^n{x_iD_if(x)}.$$
+    \hfill\qedsymbol
+\end{solution}

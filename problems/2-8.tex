@@ -5,13 +5,12 @@
     only if $f_1$ and $f_2$ are, and that
     in this case
     $$f'(a)=\left(\begin{matrix}
-        f_1'(a)\\f_2'(a)
+        f_1'(a)\\[6pt] f_2'(a)
     \end{matrix}\right).$$
 }
 \begin{solution}
     If $f:\rl\to\rl^2$ is differentiable
-    at $a$, 
-    then for some linear
+    at $a$, then for some linear
     transformation $\lambda:\rl\to\rl^2$,
     $$\lim_{h\to 0}
     {\frac{\|f(a+h)-f(a)-\lambda(h)\|}
@@ -33,9 +32,9 @@
     $$\frac{\|f(a+h)-f(a)-\lambda(h)\|}
     {\vert h\vert}=\left\lVert\left(
         \begin{matrix}
-        \frac{f_1(a+h)-f(a)-\lambda_1(h)}
-        {h}\\
-        \frac{f_2(a+h)-f(a)-\lambda_2(h)}
+        \dfrac{f_1(a+h)-f(a)-\lambda_1(h)}
+        {h}\\[6pt]
+        \dfrac{f_2(a+h)-f(a)-\lambda_2(h)}
         {h}
         \end{matrix}\right)\right\rVert$$
     
@@ -52,13 +51,13 @@
     \lambda(h) =
     \left(
     \begin{matrix}
-        \lambda_1(h)\\
+        \lambda_1(h)\\[6pt]
         \lambda_2(h)
     \end{matrix}\right)
     =
     \left(
     \begin{matrix}
-        \vert h\vert f_1'(a)\\
+        \vert h\vert f_1'(a)\\[6pt]
         \vert h\vert f_2'(a)
     \end{matrix}\right).
     $$

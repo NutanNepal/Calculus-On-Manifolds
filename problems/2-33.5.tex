@@ -1,0 +1,24 @@
+\question{
+    [2-33.5]
+    If $f:\rl\to\rl$ is defined by
+    $f(x)=x^n$, find $Df(x)$.
+}
+\begin{solution}
+    Here
+    \begin{align*}
+        f'(x)&=
+        \lim_{h\to 0}{\frac
+        {f(x+h)-f(x)}{h}}\\
+        &=\lim_{h\to 0}{\frac
+        {(x+h)^n-x^n}{h}}\\
+        &=\lim_{h\to 0}{\frac
+        {(x+h-x)((x+h)^{n-1}
+        +x(x+h)^{n-2}+....+
+        x^{n-1})}{h}}\\
+        &=\lim_{h\to 0}
+        {\left[(x+h)^{n-1}
+        +x(x+h)^{n-2}+....+
+        x^{n-1}\right]}\\
+        &=nx^{n-1}.
+    \end{align*}
+\end{solution}
