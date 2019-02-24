@@ -5,7 +5,7 @@
     $$\lim_{t\to 0}{\frac{f(a+tx)
     -f(a)}{t}},$$
     if it exists, is denoted $D_xf(a)$,
-    and is called the
+    and is called the 
     $\mathbf{directional}$
     derivarive of
     $f$ at $a$, in the direction $x$.
@@ -47,7 +47,23 @@
         D_yf(a)$.
     }
     \begin{solution}
-        Here, if $x=\lambda_1e_1+
-        ...+\lambda_ne_n$, then
+        Here
+        \begin{align*}
+            Df(a)(x)
+            &=\lVert x\rVert\lim_{x\to 0}
+            {\dfrac{f(a+x)-f(a)}
+            {\lVert x\rVert}}\\
+            \shortintertext{and if
+            $y\in\ron$, $ty\to 0$ as
+            $t\to 0$. So for $y\neq 0$,}
+            &=\lVert x\rVert\lim_{t\to 0}
+            {\dfrac{f(a+ty)-f(a)}{\lVert ty
+            \rVert}}\\
+            &=\dfrac{\lVert x\rVert}
+            {\lVert y\rVert}D_yf(a)\\
+            &=t\cdot D_{x/t}f(a)=D_xf(a).
+        \end{align*}
+        Since $Df(a)$ is linear, the
+        remaining results immediately follow.
     \end{solution}
 \end{parts}
