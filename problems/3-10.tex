@@ -1,0 +1,35 @@
+\question{
+    [3-10]
+
+    (a) If C is a set of content 0, show
+    that the boundary of C has content 0.
+
+    (b) Give an example of a bounded set
+    C of measure 0 such that the boundary
+    of C does not have measure 0.
+}
+\begin{solution}
+    \begin{parts}
+        \part{
+            Let A be the set of content 0.
+    Then for every $\varepsilon>0$,
+    there is a finite cover
+    $\{U_1,\ldots,U_n\}$ of A by
+    closed intervals such that
+    $\sum_{i=1}^n{v(U_i)}<\varepsilon$.
+    Also since $A\subset\cup_{i=1}^n{U_i}$,
+    where each $U_i$ are closed, boundary
+    of $A$ are also contained in the finite
+    union and the same $U_i$ suffices to
+    conclude that the boundary of $A$ has
+    content 0.
+        }
+
+        \part{
+        A=$\{x\in[0,1]:x\in\mathbb{Q}\}$
+        has measure 0. But the
+        boundary of A is all of $[0,1]$
+        which doesn't have measure 0.
+        }
+    \end{parts}
+\end{solution}

@@ -1,0 +1,39 @@
+\question{
+    [3-8]
+    Prove that $[a_1,b_1]\times\cdots\times
+    [a_n,b_n]$ does not have content $0$ if
+    $a_i\le b_i$ for each $i$.
+}
+\begin{solution}
+    The given rectangle is compact in $\ron$.
+    Let $\{U_1,\ldots,U_m\}$ be the finite
+    cover of $[a_1,b_1]\times\cdots\times
+    [a_n,b_n]$ by closed rectangles where we
+    assume that each $U_j\subset 
+    [a_1,b_1]\times\cdots\times [a_n,b_n]$.
+    And let $P_i$ be the sequence $t_{i,0},
+    t_{i,1},\ldots,t_{i,k}$ where $a_i=
+    t_{i,0}<t_{i,1}<\ldots<t_{i,k}=b_i$.
+    Then the partition $P=(P_1,\ldots,P_n)$
+    divides the rectangle into $k^n$
+    subrectangles. If we let $a_i=
+    t_{i,0}<t_{i,1}<\ldots<t_{i,k}=b_i$
+    be all the
+    corners of all $U_j$, then each $U_j$ is
+    the union of finite subrectangles in $P$.
+    And hence, each $v(U_j)
+    $ is the sum of volume of certain
+    subrectangles of the partition.
+    Also since each subrectangle lies in at
+    least one $U_j$,
+    \begin{align*}
+        &\textnormal{sum
+    of volume of all the closed covers
+    $U_i$}\\
+    \ge&\textnormal{sum of volumes of each
+    subrectangles}\\
+    =&v([a_1,b_1]\times\cdots\times
+    [a_n,b_n])
+    \end{align*}
+
+\end{solution}

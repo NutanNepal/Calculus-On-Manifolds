@@ -1,0 +1,25 @@
+\question{
+    [3-1]
+    Let $f:[0,1]\times[0,1]\to\rl$ be defined
+    by
+    $$f(x,y)=
+    \begin{dcases}
+        0&\textnormal{if }
+        0\leq x\leq\dfrac{1}{2},\\
+        1&\textnormal{if }
+        \dfrac{1}{2}\leq x\leq1.
+    \end{dcases}$$
+    Show that $f$ is integrable and
+    $\int_{[0,1]\times[0,1]}{f}=\frac{1}{2}.$
+}
+\begin{solution}
+    For subrectangles $S_1=\left[0,
+    \frac{1}{2}\right]$
+    and $S_2=\left[\frac{1}{2}, 1\right]$,
+    $m_{S_1}=M_{S_1}=0$ and
+    $m_{S_2}=M_{S_2}=1$. Then $L(f,P)=\sum_
+    {k=1}^2{m_{S_k}\cdot v(S_k)}=0\cdot v(S_1)
+    +1\cdot v(S_2)=v(S_2).$ Similarly, $U(f,P)
+    =v(S_2)$. And hence, the integration of
+    $f$ on $[0,1]\times[0,1]$ = $v(S_2)=1/2$.
+\end{solution}

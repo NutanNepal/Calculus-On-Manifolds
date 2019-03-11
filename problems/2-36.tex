@@ -1,15 +1,45 @@
 \question{
+    [2-36]
     Let $A\subset\ron$ be an open set
     and $f:A\to\ron$ a continuously
     differentiable 1-1 function such
     that $\det{f'(x)}\ne 0$ for all
     $x$. Show that $f(A)$ is an open
-    set and $f^{-1}(A):f(A)\to A$ is
+    set and $f^{-1}:f(A)\to A$ is
     differentiable. Show also that
     $f(B)$ is open for any open set
     in $A$.
 }
 
 \begin{solution}
-    
+    The inverse function theorem:
+    Suppose $f:\ron\to\ron$ is a continuously
+    differentiable in an open set containing
+    $a$, and $\det{f'(a)}\ne 0$. Then there
+    is an open set $V$ containing $a$ and an
+    open set $W$ containing $f(a)$ such that
+    $f:V\to W$ has a continuous inverse $f^{-1}
+    :W\to V$ which is differentiable.
+
+    Then since $f:A\to\ron$ is continuously
+    differentiable in the open set $A$ with
+    $\det{f'(x)}\ne 0$ for all $x\in A$ there
+    exists open sets $V_x \subset A$ for
+    every $x\in A$ with $W_x \subset \ron$
+    such that each $f:
+    V_x\to W_x$ has continuous and differentiable
+    inverse $f^{-1}:
+    W_x\to V_x$. We note that $A\subset
+    \bigcup_{x\in A}{V_x}$ and since each $V_x
+    \subset A$, we have $A=\bigcup_{x\in A}{V_x}$.
+    Also since $f$ is 1-1 and
+    invertible on each $W_x$, $f(V_x)=W_x$.
+    Hence,
+    $$f(A)= f\left(\bigcup_{x\in A}
+        {V_x}\right)=\bigcup_{x\in A}{W_x}$$
+    which is open. Similarly
+    $$f^{-1}(W_x)=V_x=A.$$
+    And since $f^{-1}$ is continuous,
+    every open subset $B$ of $A$ has an open
+    subset $f(B)\subset f(A)$.
 \end{solution}

@@ -1,0 +1,29 @@
+\question{
+    [3-12]
+    Let $f:[a, b]\to\rl$ be an increasing
+    function. Show that $\{x:\textnormal
+    {$f$ is discontinuous at $x$}\}$ has
+    measure 0.
+    
+    Hint: Use Problem 1-30 to
+    show that $\{x:o(f,x)>1/n\}$ is
+    finite, for each integer n.
+}
+
+\begin{solution}
+    Let $B=\{x:\textnormal
+    {$f$ is discontinuous at $x$}\}$. Then
+    we know that
+    $$\sum_{x\in B}{o(f,x)}<f(b)-f(a).$$
+    Let $A_n$ be the set $\{x:o(f,x)>1/n\}$
+    for each $n$.
+    Then for an increasing function
+    $$f(b)-f(a)>\sum_{x\in A_n}{o(f,x)}
+    >\sum_{x\in A}{\dfrac{1}{n}}.$$
+    However, since $f(b)-f(a)$ is finite
+    ($f([a,b])$ is bounded and
+    closed),
+    there should be finitely many
+    $x\in A_n$ for each $n$.
+
+\end{solution}

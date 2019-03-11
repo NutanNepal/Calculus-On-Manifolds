@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.31)  24 FEB 2019 06:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.31)  11 MAR 2019 05:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -427,10 +427,47 @@ Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
 \tcb@temp=\box44
 \tcb@out=\write4
 \tcb@record@out=\write5
+) (c:/texlive/2018/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (c:/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (c:/texlive/2018/texmf-dist/tex/latex/pgf/math/pgfmath.sty (c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2019/01/05 v3.1 (3.1)
+ (c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen164
+\pgffor@skip=\dimen165
+\pgffor@stack=\toks45
+\pgffor@toks=\toks46
+)) (c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2019/01/05 v3.1 (3.1)
+ (c:/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2019/01/05 v3.1 (3.1)
+\pgf@plot@mark@count=\count162
+\pgfplotmarksize=\dimen166
 )
-\c@theorem=\count162
-\c@corollary=\count163
-\c@definition=\count164
+\tikz@lastx=\dimen167
+\tikz@lasty=\dimen168
+\tikz@lastxsaved=\dimen169
+\tikz@lastysaved=\dimen170
+\tikzleveldistance=\dimen171
+\tikzsiblingdistance=\dimen172
+\tikz@figbox=\box45
+\tikz@figbox@bg=\box46
+\tikz@tempbox=\box47
+\tikz@tempbox@bg=\box48
+\tikztreelevel=\count163
+\tikznumberofchildren=\count164
+\tikznumberofcurrentchild=\count165
+\tikz@fig@count=\count166
+ (c:/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2019/01/05 v3.1 (3.1)
+\pgfmatrixcurrentrow=\count167
+\pgfmatrixcurrentcolumn=\count168
+\pgf@matrix@numberofcolumns=\count169
+)
+\tikz@expandcount=\count170
+ (c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2019/01/05 v3.1 (3.1)
+)))
+\c@theorem=\count171
+\c@corollary=\count172
+\c@definition=\count173
 ) (e:/Documents/GitHub/Calculus-On-Manifolds/headers/macros.tex) (e:/Documents/GitHub/Calculus-On-Manifolds/main.aux
 
 LaTeX Warning: Label `question@1' multiply defined.
@@ -446,6 +483,30 @@ LaTeX Warning: Label `question@4' multiply defined.
 
 
 LaTeX Warning: Label `question@5' multiply defined.
+
+
+LaTeX Warning: Label `question@1' multiply defined.
+
+
+LaTeX Warning: Label `question@2' multiply defined.
+
+
+LaTeX Warning: Label `question@3' multiply defined.
+
+
+LaTeX Warning: Label `question@4' multiply defined.
+
+
+LaTeX Warning: Label `question@5' multiply defined.
+
+
+LaTeX Warning: Label `question@6' multiply defined.
+
+
+LaTeX Warning: Label `question@7' multiply defined.
+
+
+LaTeX Warning: Label `question@8' multiply defined.
 
 )
 \openout1 = `main.aux'.
@@ -464,17 +525,17 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
  ABD: EveryShipout initializing macros (c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count165
-\scratchdimen=\dimen164
-\scratchbox=\box45
-\nofMPsegments=\count166
-\nofMParguments=\count167
-\everyMPshowfont=\toks45
-\MPscratchCnt=\count168
-\MPscratchDim=\dimen165
-\MPnumerator=\count169
-\makeMPintoPDFobject=\count170
-\everyMPtoPDFconversion=\toks46
+\scratchcounter=\count174
+\scratchdimen=\dimen173
+\scratchbox=\box49
+\nofMPsegments=\count175
+\nofMParguments=\count176
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count177
+\MPscratchDim=\dimen174
+\MPnumerator=\count178
+\makeMPintoPDFobject=\count179
+\everyMPtoPDFconversion=\toks48
 ) (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (c:/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
@@ -544,26 +605,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--22
 
 ) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/1-23.tex [1
 
-{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/1-24.tex) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/1-25.tex) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/1-29.tex [2]) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/1-30.tex) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-1.tex [3]) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-2.tex) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-4.tex [4]) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-8.tex [5]) (e:/Documents/GitHub/Calculus-On-Manifolds/theorems/th4_diffrules.tex) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-12.tex [6]) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-13.tex [7]) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-14.tex [8]) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-24.tex) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-25.tex [9]) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-26.tex) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-28.tex [10]) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-29.tex) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-30.tex [11]) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-32.tex) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-33.5.tex [12]) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-34.tex) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-36.tex) [13]
-This exam contains 22 questions with 19 parts, 0 subparts, and 0 subsubparts.
+{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/1-24.tex) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/1-25.tex) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/1-29.tex [2]) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/1-30.tex) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-1.tex [3]) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-2.tex) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-4.tex [4]) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-8.tex [5]) (e:/Documents/GitHub/Calculus-On-Manifolds/theorems/th4_diffrules.tex) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-12.tex [6]) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-13.tex [7]) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-14.tex [8]) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-24.tex) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-25.tex [9]) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-26.tex) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-28.tex [10]) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-29.tex) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-30.tex [11]) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-32.tex [12]) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-33.5.tex) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-34.tex) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/2-36.tex [13]) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/3-1.tex) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/3-2.tex) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/3-8.tex [14]) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/3-9.tex) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/3-10.tex) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/3-11.tex) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/3-12.tex [15]) (e:/Documents/GitHub/Calculus-On-Manifolds/problems/3-13.tex) [16]
+This exam contains 30 questions with 19 parts, 0 subparts, and 0 subsubparts.
 (e:/Documents/GitHub/Calculus-On-Manifolds/main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 14528 strings out of 492616
- 275336 string characters out of 6132768
- 348616 words of memory out of 5000000
- 18069 multiletter control sequences out of 15000+600000
+ 17091 strings out of 492616
+ 334917 string characters out of 6132768
+ 401149 words of memory out of 5000000
+ 20571 multiletter control sequences out of 15000+600000
  13150 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,15n,73p,877b,537s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on e:/Documents/GitHub/Calculus-On-Manifolds/main.pdf (13 pages, 207825 bytes).
+ 56i,15n,73p,894b,888s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
+Output written on e:/Documents/GitHub/Calculus-On-Manifolds/main.pdf (16 pages, 228317 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
+ 127 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

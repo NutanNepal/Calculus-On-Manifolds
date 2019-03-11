@@ -1,0 +1,36 @@
+\question{
+    [3-11]
+    Let A be the set of Problem 1-18.
+    If $\sum_{i=1}^{\infty}{(b_i-a_i)}
+    <1$, show that the boundary of $A$
+    does not have measure 0.
+
+    [1-18]
+    If $A\subset[0,1]$ is the union of
+    open intervals $(a_i,b_i)$ such
+    that each rational number in $[0,1]$
+    is contained in some $(a_i,b_i)$,
+    show that boundary $A = [0,1] - A.$
+}
+\begin{solution}
+    Since each $(a_i,b_i)$ contains a
+    rational number, the collection 
+    $\mathscr{O}$ of
+    $(a_i, b_i)$ is countable. Now,
+    assume that
+    the boundary of $A$ doesnt not have
+    measure zero. Then there exists a
+    countable cover of the boundary by
+    closed rectangles $U_i$ such that
+    $\sum_{i=0}^{\infty}{v(U_i)}<
+    \varepsilon$ for every $\varepsilon
+    >0$ Then there is a
+    countable collection of closed
+    rectangles $V_j$ that cover all of
+    $[0,1]$ such that $\sum_{j=1}^
+    {\infty}{v(V_j)}<1.$ But, we know
+    that $\sum_{j=1}^
+    {\infty}{v(V_j)}$ should be at least
+    $1-0=1$. Hence, we have a
+    contradiction.
+\end{solution}

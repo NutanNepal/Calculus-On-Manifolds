@@ -1,0 +1,63 @@
+\question{
+    [3-13]
+
+    (a) Show that the collection of
+    all rectangles $[a_1,b_1]\times
+    \ldots\times[a_n,b_n]$ with all
+    $a_i$ and $b_i$ rational can be
+    arranged in a sequence.
+
+    (b) If $A\subset\ron$ is any set
+    and $\mathscr{O}$ is an open cover
+    of $A$, show that there is a
+    sequence $U_1,U_2,U_3,\ldots$ of
+    members of $\mathscr{O}$ which also
+    cover $A$. 
+    
+    Hint: For each $x\in A$ there is a
+    rectangle $B = [a_1,b_1]\times\ldots
+    \times[a_n,b_n]$ with all $a_i$ and
+    $b_i$ rational such that $x\in B
+    \subset U$ for some $U\in\mathscr{)}.
+    $
+}
+\begin{solution}
+    \begin{parts}
+        \part{        
+    (a) We will prove this by induction.
+    For base case, we will show that
+    $[a_1,b_1]\times[a_2,b_2]$ is
+    countable if each $a_i$ and $b_i$
+    are rational.
+
+    We know that rational numbers are
+    countable. Let the rational numbers
+    between $a_1$ and $b_1$ be arranged
+    in the sequence $a_{1,1},a_{1,2},
+    a_{1,3}\ldots$. Then let each
+    intervals $[a_{1,i},a_{1,i+1}]
+    \subset[a_1,b_1]$ be denoted $V_i$.
+    We do the same for $[a_2,b_2]$ to
+    get the sequence of countable
+    intervals $W_j$. Now let $U_{i,j}$
+    denote $V_i\times W_j$ for each $V_i$
+    and $W_j$. It is clear that each
+    corners of $U_{i,j}$ have rational
+    coordinates. Then we can see that
+    \begin{center}
+    \countable
+    \end{center}
+    all the $U_{i,j}$ can be arranged
+    in a sequence.
+
+    Now, assuming that we can do the same
+    for $[a_1,b_1]\times\ldots
+    \times[a_n,b_n]$, we get a sequence
+    of closed rectangles $V_i\subset
+    \ron$ with each $a_i$ and $b_i$
+    rational. We can also get the
+    sequence of intervals $W_j$ 
+
+        }
+    \end{parts}
+\end{solution}

@@ -1,0 +1,36 @@
+\question{
+    Let $f:A\to\rl$ be integrable and let
+    $g=f$ except at finitely many points. Show
+    that $g$ is integrable and $\int_A{f}
+    =\int_A{g}.$
+}
+\begin{solution}
+    Let $P$ be a partition of $A$ such that
+    the function $f$ differs from $g$ at
+    finitely many points contained in the closed
+    subrectangles $S_1, S_2,..., S_n$ where each
+    subrectangle has a side $\varepsilon>0$.Then
+    \begin{align*}
+        &\left(U(f, P)-L(f,P)\right)-\left(U(g,P)-
+    L(g,P)\right)\\
+    =&\sum_{k=1}^n{\left(M_f(S_k)-m_f(S_k)\right)
+    \cdot v(S_k)}-\sum_{k=1}^n{\left(M_g(S_k)
+    -m_g(S_k)\right)
+    \cdot v(S_k)}
+    \end{align*}
+    since the $f$ and $g$ only differ in $S_i$.
+    Also, the volume of each $S_i$ is given by
+    some $\varepsilon'>0$. Since $\varepsilon'$
+    is arbitrary, we see that
+    \begin{align*}
+        &\left(U(f, P)-L(f,P)\right)-
+    \left(U(g,P)-L(g,P)\right)<p\varepsilon'\\
+    \textnormal{or, }&\int_A{f}-\left(U(g,P)-
+    L(g,P)\right)<p\varepsilon'
+    \end{align*}
+    for some $p\in\rl$. Also since $f$ is
+    integrable, $\left(U(g,P)-
+    L(g,P)\right)<\varepsilon'\cdot
+    \varepsilon''$ for
+    another arbitrary $\varepsilon''>0$.
+\end{solution}
